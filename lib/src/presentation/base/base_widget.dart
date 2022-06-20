@@ -16,7 +16,7 @@ class BaseWidget<T extends BaseViewModel> extends StatefulWidget {
   final Widget? childTablet;
 
   final Widget Function(BuildContext context, T viewModel, Widget? child)
-    builder;
+      builder;
   final T viewModel;
   final Function(T? viewModel)? onViewModelReady;
 
